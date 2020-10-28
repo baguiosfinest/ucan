@@ -1,0 +1,48 @@
+.sidebar-wrapper {
+  .nav {
+    li {
+      font-weight: 500;
+      &.active {
+        color: $greenucan!important;
+      }
+    }
+  }
+
+}
+.card {
+  .text-avatar {
+    margin: 0 auto;
+    background: $greenucan;
+    color: #fff;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &.card-block {
+    flex: 1;
+  }
+
+  &.card-big {
+      .card-header{
+        font-size: 1rem;
+      }
+      .card-body {
+        font-size: 3rem;
+      }
+    }
+}
+
+#client-map{
+  width: 100%;
+  height: 300px;
+}
+
+.full-map {
+  height: 500px;
+}
+
+.table-row-sep {
+  border-bottom: 2px #bbb solid;
+}

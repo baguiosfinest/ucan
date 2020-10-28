@@ -1,0 +1,21 @@
+.table {
+  &.table-bordered {
+    border: #000 1px solid;
+    td, th {
+      border: #000 1px solid;
+      line-height: normal;
+    }
+  }
+  &.pdf-table {
+    thead>tr>th {
+      font-size: 13px;
+    }
+    tbody>tr>td {
+      font-size: 12px;
+      vertical-align: top!important;
+      &:last-child {
+        text-align: center;
+      }
+    }
+  }
+}
